@@ -1,0 +1,915 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise">
+    <Prefix name="dc" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vcards" IRI="http://www.w3.org/2006/vcard/ns"/>
+    <Prefix name="wgs84_pos" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Import>http://purl.org/dc/terms/</Import>
+    <Import>http://www.w3.org/2006/vcard/ns</Import>
+    <Import>https://www.geonames.org/ontology</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Ontology to describe centers and schools for disabled persons in Madrid for a Semantic Integration exercise in the subject Information Retrieval, Extraction and Integration at UPM, April 2020.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AccessibilityCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuditoryDisability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BicimadStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CareService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CercaníasStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntitiesAndOrgans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntellectualOrDevelopmentDisability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetroStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotoricDisability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MunicipalArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MunicipalDistrict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Municipality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ownership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quarter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReducedMobilityDisability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SchoolService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialSchool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportStation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccessibilityCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFax"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFundingForm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTransportStation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helpsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inDistrict"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inLocality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inMunicipality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inProvince"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inQuarter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inStreet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prefersIntegrationOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAdditionalLocInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEntranceAdditionalLocInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFloorAdditionalLocInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLineNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOrientationAdditionalLocInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStairsAdditionalLocInfo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStationNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStreetAbbreviation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStreetType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasXCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inStreetNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AccessibilityGiven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cafeteria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtendedSchedule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtracurricularActivities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MagneticInductionLoops"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoAccessibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoInformationForReducedMobility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PartialAccessibilityForReducedMobility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PodotacticSignaling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrivateFunding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PublicFunding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Residence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SignLanguage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StateAssistedFunding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dc:identifier"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#AccessibilityGiven"/>
+            <NamedIndividual IRI="#MagneticInductionLoops"/>
+            <NamedIndividual IRI="#NoAccessibility"/>
+            <NamedIndividual IRI="#NoInformationForReducedMobility"/>
+            <NamedIndividual IRI="#PartialAccessibilityForReducedMobility"/>
+            <NamedIndividual IRI="#PodotacticSignaling"/>
+            <NamedIndividual IRI="#SignLanguage"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ownership"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#PrivateFunding"/>
+            <NamedIndividual IRI="#PublicFunding"/>
+            <NamedIndividual IRI="#StateAssistedFunding"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SchoolService"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Cafeteria"/>
+            <NamedIndividual IRI="#ExtendedSchedule"/>
+            <NamedIndividual IRI="#ExtracurricularActivities"/>
+            <NamedIndividual IRI="#Residence"/>
+            <NamedIndividual IRI="#Transport"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#hasTelephone"/>
+            <Class IRI="http://www.w3.org/2006/vcard/ns#Voice"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFax"/>
+            <Class IRI="http://www.w3.org/2006/vcard/ns#Fax"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty abbreviatedIRI="dc:identifier"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#helpsWith"/>
+            <Class IRI="#Disability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuditoryDisability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BicimadStation"/>
+        <Class IRI="#TransportStation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BicimadStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLineNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BicimadStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasStationNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BicimadStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="https://www.geonames.org/ontology#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusStation"/>
+        <Class IRI="#TransportStation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CareService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CareService"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.w3.org/2006/vcard/ns#fn"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CercaníasStation"/>
+        <Class IRI="#TransportStation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CercaníasStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="https://www.geonames.org/ontology#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntellectualOrDevelopmentDisability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locality"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locality"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <Class IRI="#Province"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inDistrict"/>
+            <Class IRI="#MunicipalDistrict"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inProvince"/>
+            <Class IRI="#Province"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inStreet"/>
+            <Class IRI="#Street"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#inArea"/>
+            <Class IRI="#MunicipalArea"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#inLocality"/>
+            <Class IRI="#Locality"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#inMunicipality"/>
+            <Class IRI="#Municipality"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#inQuarter"/>
+            <Class IRI="#Quarter"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#inStreetNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.geonames.org/ontology#postalCode"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasEntranceAdditionalLocInfo"/>
+            <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasFloorAdditionalLocInfo"/>
+            <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasOrientationAdditionalLocInfo"/>
+            <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasStairsAdditionalLocInfo"/>
+            <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasXCoordinate"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasYCoordinate"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="https://www.geonames.org/ontology#lat"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="https://www.geonames.org/ontology#long"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroStation"/>
+        <Class IRI="#TransportStation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLineNumber"/>
+            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetroStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="https://www.geonames.org/ontology#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotoricDisability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalArea"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalArea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Locality"/>
+                <Class IRI="#Municipality"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalDistrict"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MunicipalDistrict"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Locality"/>
+                <Class IRI="#MunicipalArea"/>
+                <Class IRI="#Municipality"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Municipality"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Municipality"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <Class IRI="#Province"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Province"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Province"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <Class IRI="#Country"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quarter"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quarter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+            <Class IRI="#MunicipalDistrict"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReducedMobilityDisability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SchoolService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <Class IRI="#EntitiesAndOrgans"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#hasURL"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAccessibilityCharacteristic"/>
+            <Class IRI="#AccessibilityCharacteristic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#hasCalendarLink"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+            <Class IRI="http://www.w3.org/2006/vcard/ns#Email"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasAccessibilityCharacteristic"/>
+            <Class IRI="#AccessibilityCharacteristic"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTransportStation"/>
+            <Class IRI="#TransportStation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#offersService"/>
+            <Class IRI="#CareService"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>private key from source</Literal>
+        </Annotation>
+        <Class IRI="#SpecialCenter"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty abbreviatedIRI="dc:identifier"/>
+            <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialCenter"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.w3.org/2006/vcard/ns#language"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>= description = &quot;descripción&quot; in the dataset</Literal>
+        </Annotation>
+        <Class IRI="#SpecialCenter"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://www.w3.org/2006/vcard/ns#note"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>= center description = &quot;descripción entidad&quot; in the dataset</Literal>
+        </Annotation>
+        <Class IRI="#SpecialCenter"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="http://www.w3.org/2006/vcard/ns#role"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialSchool"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialSchool"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#offersService"/>
+            <Class IRI="#SchoolService"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialSchool"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#prefersIntegrationOf"/>
+            <Class IRI="#Disability"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialSchool"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFundingForm"/>
+            <Class IRI="#Ownership"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>specifies owndership and education levels</Literal>
+        </Annotation>
+        <Class IRI="#SpecialSchool"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasStreetAbbreviation"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasStreetType"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Street"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.geonames.org/ontology#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportStation"/>
+        <Class IRI="https://www.geonames.org/ontology#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportStation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLineNumber"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CareService"/>
+        <Class IRI="#SchoolService"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Locality"/>
+        <Class IRI="#Municipality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SpecialCenter"/>
+        <Class IRI="#SpecialSchool"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#AccessibilityGiven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SchoolService"/>
+        <NamedIndividual IRI="#Cafeteria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SchoolService"/>
+        <NamedIndividual IRI="#ExtendedSchedule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SchoolService"/>
+        <NamedIndividual IRI="#ExtracurricularActivities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#MagneticInductionLoops"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#NoAccessibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#NoInformationForReducedMobility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#PartialAccessibilityForReducedMobility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#PodotacticSignaling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ownership"/>
+        <NamedIndividual IRI="#PrivateFunding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ownership"/>
+        <NamedIndividual IRI="#PublicFunding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SchoolService"/>
+        <NamedIndividual IRI="#Residence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityCharacteristic"/>
+        <NamedIndividual IRI="#SignLanguage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ownership"/>
+        <NamedIndividual IRI="#StateAssistedFunding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SchoolService"/>
+        <NamedIndividual IRI="#Transport"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inArea"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inDistrict"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inLocality"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inMunicipality"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inProvince"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inQuarter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inStreet"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="https://www.geonames.org/ontology#locatedIn"/>
+    </TransitiveObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEntranceAdditionalLocInfo"/>
+        <DataProperty IRI="#hasAdditionalLocInfo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFloorAdditionalLocInfo"/>
+        <DataProperty IRI="#hasAdditionalLocInfo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOrientationAdditionalLocInfo"/>
+        <DataProperty IRI="#hasAdditionalLocInfo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasStairsAdditionalLocInfo"/>
+        <DataProperty IRI="#hasAdditionalLocInfo"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasXCoordinate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasYCoordinate"/>
+    </FunctionalDataProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EntitiesAndOrgans</IRI>
+        <Literal>link to the classification of entities/centers on the source webpage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>Full address with coordinate position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
+        <IRI>#SpecialCenter</IRI>
+        <Literal>Identifier: ID given to center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
+        <IRI>#SpecialSchool</IRI>
+        <Literal>Identifier: code given to school</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

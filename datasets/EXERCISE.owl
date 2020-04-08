@@ -1,0 +1,1116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise"
+     xml:base="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise"
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:adms="http://www.w3.org/ns/adms#"
+     xmlns:dcam="http://purl.org/dc/dcam/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vcards="http://www.w3.org/2006/vcard/ns"
+     xmlns:relators="http://id.loc.gov/vocabulary/relators/"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <owl:Ontology rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise">
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+        <owl:imports rdf:resource="http://www.w3.org/2006/vcard/ns"/>
+        <owl:imports rdf:resource="https://www.geonames.org/ontology"/>
+        <rdfs:comment>Ontology to describe centers and schools for disabled persons in Madrid for a Semantic Integration exercise in the subject Information Retrieval, Extraction and Integration at UPM, April 2020.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAccessibilityCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAccessibilityCharacteristic"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFax -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFax"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFundingForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFundingForm"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasTransportStation -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasTransportStation"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#helpsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#helpsWith"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inArea">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inDistrict">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inLocality -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inLocality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inMunicipality -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inMunicipality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inProvince -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inProvince">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inQuarter -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inQuarter">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreet -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreet">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#offersService -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#offersService"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#prefersIntegrationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#prefersIntegrationOf"/>
+    
+
+
+    <!-- https://www.geonames.org/ontology#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#locatedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasEntranceAdditionalLocInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasEntranceAdditionalLocInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFloorAdditionalLocInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFloorAdditionalLocInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasLineNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasLineNumber"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasOrientationAdditionalLocInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasOrientationAdditionalLocInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStairsAdditionalLocInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStairsAdditionalLocInfo">
+        <rdfs:subPropertyOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAdditionalLocInfo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStationNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStationNumber"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetAbbreviation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetAbbreviation"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetType"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasType"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasXCoordinate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasXCoordinate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasYCoordinate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasYCoordinate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreetNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreetNumber"/>
+    
+
+
+    <!-- https://www.geonames.org/ontology#lat -->
+
+    <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#lat"/>
+    
+
+
+    <!-- https://www.geonames.org/ontology#long -->
+
+    <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#long"/>
+    
+
+
+    <!-- https://www.geonames.org/ontology#name -->
+
+    <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#name"/>
+    
+
+
+    <!-- https://www.geonames.org/ontology#postalCode -->
+
+    <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#postalCode"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2006/vcard/ns#Organization -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/vcard/ns#Organization">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#hasTelephone"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFax"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityGiven"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MagneticInductionLoops"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoAccessibility"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoInformationForReducedMobility"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PartialAccessibilityForReducedMobility"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PodotacticSignaling"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SignLanguage"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#helpsWith"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AuditoryDisability -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AuditoryDisability">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#BicimadStation -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#BicimadStation">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasLineNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStationNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#BusStation -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#BusStation">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#CareService -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#CareService">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Service"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#fn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#CercaníasStation -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#CercaníasStation">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Country -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Country">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#EntitiesAndOrgans -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#EntitiesAndOrgans">
+        <rdfs:comment>link to the classification of entities/centers on the source webpage</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#IntellectualOrDevelopmentDisability -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#IntellectualOrDevelopmentDisability">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Locality -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Locality">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Province"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Location -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Location">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inDistrict"/>
+                <owl:someValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalDistrict"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inProvince"/>
+                <owl:someValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Province"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreet"/>
+                <owl:someValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Street"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inArea"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalArea"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inLocality"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Locality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inMunicipality"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inQuarter"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Quarter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#inStreetNumber"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#postalCode"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasEntranceAdditionalLocInfo"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFloorAdditionalLocInfo"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasOrientationAdditionalLocInfo"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStairsAdditionalLocInfo"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasXCoordinate"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasYCoordinate"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#lat"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#long"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Full address with coordinate position</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MetroStation -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MetroStation">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasLineNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MotoricDisability -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MotoricDisability">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalArea -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalArea">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Locality"/>
+                            <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalDistrict -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalDistrict">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Locality"/>
+                            <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalArea"/>
+                            <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Municipality">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Province"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PrivateFunding"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PublicFunding"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#StateAssistedFunding"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Province -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Province">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Quarter -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Quarter">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#locatedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MunicipalDistrict"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ReducedMobilityDisability -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ReducedMobilityDisability">
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Cafeteria"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtendedSchedule"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtracurricularActivities"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Residence"/>
+                    <rdf:Description rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Transport"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Service"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Service -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Service"/>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialCenter -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialCenter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#EntitiesAndOrgans"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAccessibilityCharacteristic"/>
+                <owl:someValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#hasCalendarLink"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#hasEmail"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasAccessibilityCharacteristic"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasTransportStation"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#offersService"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#CareService"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#language"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#note"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#role"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialSchool"/>
+        <skos:note>Identifier: ID given to center</skos:note>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialCenter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <rdfs:label>private key from source</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialCenter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#note"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <rdfs:comment>= description = &quot;descripción&quot; in the dataset</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialCenter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#role"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <rdfs:comment>= center description = &quot;descripción entidad&quot; in the dataset</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialSchool -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialSchool">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#offersService"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#prefersIntegrationOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Disability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasFundingForm"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:note>Identifier: code given to school</skos:note>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SpecialSchool"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <rdfs:comment>specifies owndership and education levels</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Street -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Street">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetAbbreviation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasStreetType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation -->
+
+    <owl:Class rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#TransportStation">
+        <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#hasLineNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.geonames.org/ontology#Feature -->
+
+    <owl:Class rdf:about="https://www.geonames.org/ontology#Feature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityGiven -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityGiven">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Cafeteria -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Cafeteria">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtendedSchedule -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtendedSchedule">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtracurricularActivities -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#ExtracurricularActivities">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MagneticInductionLoops -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#MagneticInductionLoops">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoAccessibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoAccessibility">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoInformationForReducedMobility -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#NoInformationForReducedMobility">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PartialAccessibilityForReducedMobility -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PartialAccessibilityForReducedMobility">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PodotacticSignaling -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PodotacticSignaling">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PrivateFunding -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PrivateFunding">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PublicFunding -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#PublicFunding">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Residence -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Residence">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SignLanguage -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SignLanguage">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#AccessibilityCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#StateAssistedFunding -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#StateAssistedFunding">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Transport -->
+
+    <owl:NamedIndividual rdf:about="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#Transport">
+        <rdf:type rdf:resource="http://www.whatcanweuseassource.org/DisabilityCentersSchoolsExercise#SchoolService"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
