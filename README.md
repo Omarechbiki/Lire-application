@@ -12,3 +12,9 @@ Inside this folder we can find the implemented classes
 + **LireMetadata** class of the metafile for the recipes 
 + **IndexingAndSearchWithLocalFeatures** Class for indexing and searchin with local features
 + **CvDFT** Class for the Discrete Fourier Transform (DFT) with opencv
+
+# Team working on the project 
+**Omar Echbiki
+Shanshan Cheng 
+Yifu Qiu 
+Bianca Güttner**
