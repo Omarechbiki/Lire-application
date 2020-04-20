@@ -13,8 +13,9 @@ Inside this folder we can find the implemented classes
 + **IndexingAndSearchWithLocalFeatures** Class for indexing and searchin with local features
 + **CvDFT** Class for the Discrete Fourier Transform (DFT) with opencv
 
-# Team working on the project 
-**Omar Echbiki
-Shanshan Cheng 
-Yifu Qiu 
-Bianca Güttner**
+## Team working on the project
+**Bianca Güttner**
+**Omar Echbiki**
+**Shanshan Cheng **
+**Yifu Qiu**
+
